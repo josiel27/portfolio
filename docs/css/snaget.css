@@ -1,0 +1,31 @@
+.classPalco{
+    /* background-color: rgba(199, 199, 199, 0.568); */
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+
+.background {
+    background-image: url(background2.png);
+    /* background-position: right bottom, left top; */
+    background-repeat: repeat-x;
+    padding-top: 525px;
+    position: absolute;
+    animation: mymove 20s infinite;
+    animation-delay: 0.1s;
+    width: 2000%;
+    animation-timing-function: linear;
+}
+
+
+@keyframes mymove {
+    0% {left: 0px;}
+    100% {left: -2000px;}
+}
+
+.grow:hover{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+  }
