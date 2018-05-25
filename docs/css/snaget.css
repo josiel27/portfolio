@@ -1,10 +1,10 @@
-.classPalco{
+.classPalco {
     /* background-color: rgba(199, 199, 199, 0.568); */
     height: 100%;
     width: 100%;
     position: absolute;
+    left: 5%;
 }
-
 
 .background {
     background-image: url(background2.png);
@@ -18,14 +18,25 @@
     animation-timing-function: linear;
 }
 
-
-@keyframes mymove {
-    0% {left: 0px;}
-    100% {left: -2000px;}
+.dinoClass {
+    width: 150px;
+    height: 120px;
+    background-image: url(dino.gif);
+    position: absolute;
+    right: 10%;
 }
 
-.grow:hover{
+@keyframes mymove {
+    0% {
+        left: 0px;
+    }
+    100% {
+        left: -2000px;
+    }
+}
+
+.grow:hover {
     -webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
     transform: scale(1.1);
-  }
+}
