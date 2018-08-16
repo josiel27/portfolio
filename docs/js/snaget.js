@@ -105,3 +105,5 @@ funcaoTecladoKeyDown = function (objEvent) {
 };
 //funcao do teclado para quando soltar a tecla
 document.addEventListener('keydown', funcaoTecladoKeyDown);
+
+$('[data-toggle="popover"]').tooltip();   
