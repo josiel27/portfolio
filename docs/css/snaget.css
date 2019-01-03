@@ -6,6 +6,7 @@
     left: 5%;
 }
 
+
 .background {
     background-image: url(background2.png);
     /* background-position: right bottom, left top; */
@@ -42,12 +43,16 @@
 }
 
 .carousel{
-    width: 40% !important;
+    width: 40%;
     margin: auto !important;
 }
 .carouselHoojoke{
     width: 25% !important;
     margin: auto !important;
+}
+
+.casourelLetsmeet{
+    width: 20% !important;
 }
 
 body { overflow-x: hidden; }
