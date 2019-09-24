@@ -1,0 +1,18 @@
+/* CORREÇÃO DA GRID DE HABILIDADES */
+/* @media (min-width: 768px) {
+  .col-md-6 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 30%;
+    max-width: 50%;
+  }
+}
+
+@media (min-width: 576px) {
+  .col-md-6 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 30%;
+    max-width: 33.33%;
+  }
+} */
